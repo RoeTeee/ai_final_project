@@ -1,0 +1,10 @@
+{
+  "MONGO_URI": "mongodb://localhost:27017/",
+  "DB_NAME": "video_database",
+  "COLLECTION_NAME": "video_frames",
+  "api_key": "sk-b19a0c904f8041c0ba62f2c5c710e8c6",
+  "base_url": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+  "embed_model": "text-embedding-v3",
+  "llm_model": "qwen-plus",
+  "hf_token": ""
+}
