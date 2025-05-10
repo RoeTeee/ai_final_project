@@ -1,24 +1,19 @@
-# OpenAI客户端
+
 openai
 
-# Web界面
+
 gradio
 
-# 数据处理
+
 numpy
 pillow
-
-# 数据库
 pymongo
 
-# Hugging Face工具
 huggingface_hub
 datasets
 
-# 视频处理
 opencv-python
 
-# 向量搜索
 faiss-cpu
 
 pyyaml
