@@ -7,7 +7,7 @@ import io
 import os
 import numpy as np
 from openai import OpenAI
-from config import config  # 导入配置模块
+from config import config 
 
 def setup_mongodb():
     client = MongoClient(config.mongo_uri)
@@ -50,7 +50,7 @@ def get_text_embedding(client, text):
     
     try:
         completion = client.embeddings.create(
-            model=config.embed_model,  # 使用配置或默认值
+            model=config.embed_model,  
             input=text,
             dimensions=1024,
             encoding_format="float"
